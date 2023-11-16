@@ -120,6 +120,20 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
+
+/*==================== CAROUSEL ===================*/
+$(".custom-carousel").owlCarousel({
+    autoWidth: true,
+    loop: true
+});
+$(document).ready(function () {
+    $(".custom-carousel .item").click(function () {
+        $(".custom-carousel .item").not($(this)).removeClass("active");
+        $(this).toggleClass("active");
+    });
+});
+
+
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
