@@ -373,70 +373,63 @@
 </main>
 
 
-<!--==================== PORTFOLIO ====================-->
-<section class="portfolio section" id="portfolio">
-    <h2 class="section__title">Projects</h2>
-    <span class="section__subtitle">Some Projects I've worked on</span>
-
-    <div class="portfolio__container container swiper-container">
-        <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__image">
-
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">Personal Website</h3>
-                    <p class="portfolio__description">Website adaptable to all devices,
-                        with ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!--==================== PORTFOLIO 2 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__image">
-
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">Facebook Network Analysis </h3>
-                    <p class="portfolio__description">Network Analysis performed on Facebook's network of groups.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__image">
-
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">Candelstick Identifier</h3>
-                    <p class="portfolio__description"> Candlestick identifier built in python using NLP to identify the
-                        occurence
-                        of candlestick patterns in the stock market.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Add Arrows -->
-        <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-        <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
-
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+<section>
+    <div>
+        <p style="font-size: clamp(1rem, 10vw, 2rem)">
+            Hello hbcdshdbcsihdcbsidhcbidhcbwi chdbichwbdciw chbidchwbechw cibwechiwec
+        </p>
     </div>
+
+</section>
+
+
+<br><br>
+<section class="section">
+    <div style="display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1em;">
+
+        <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 0.5px solid #000000;
+  padding: 25px 30px;
+  height: 24em;
+  overflow-y: auto;">
+            <h4> Signals </h4>
+            <p style=" font-size: 14px"> Identifying whether or not a customer is potentially abusive is the first step
+                involved in the CAP process. This identification is done on the basis of <b>signals</b> - assigned to a
+                customer's order at the time of order placement, they help identify orders placed by potentially abusive
+                customers. <br> <br>
+                This signal assignment is done in one of 3 ways: <b> Via ML Models, CS Owned Heuristic rules or evidence
+                    based models</b></P>
+        </div>
+
+        <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 0.5px solid #000000;
+  padding: 19px 19px;
+  height: 24em;
+  overflow-y: auto;">
+            <h4> Systems </h4>
+            <p style=" font-size: 13px"> At the start of 2022, all CAP order flagging was SYSKA based. Currently, we're
+                tracking an effort to onboard the Concession Reduction Engine (CRE) to make all our heuristic rule
+                flagging real time (in tandem with the ML base flagging). <br>
+                The CRE system aims to reduce concession leakage by:
+            <ul style=" font-size: 13px">
+                <li>Deprecate syskas and o to a banner based flagging of orders (within 1-2 hours of the order being
+                    placed)
+                <li>Primary Workflow suppression - Primary is not allowed to handle the concession workflow for Flagged
+                    orders.
+                <li>Auto routing - routed basis banner + customer intent on filling the start contact form.[24% in Dec
+                    ‘22]
+                <li>All signals consolidate in the CRE (Concession Reduction Engine). Post the consolidation, on the
+                    basis of Risk band the final signals are assigned (a higher risk band = a riskier customer)
+                <li> ORC Reason codes are not linked to foresight reason codes {END of Q1]
+            </ul>
+
+
+        </div>
+
+    </div>
+
 </section>
 <!--==================== FOOTER ====================-->
 <footer class="footer">
